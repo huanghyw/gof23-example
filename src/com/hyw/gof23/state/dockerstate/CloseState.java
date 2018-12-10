@@ -3,6 +3,9 @@ package com.hyw.gof23.state.dockerstate;
 import com.hyw.gof23.state.DockerContext;
 import com.hyw.gof23.state.DockerState;
 
+/**
+ * 关闭状态
+ */
 public class CloseState implements DockerState {
 
     /**

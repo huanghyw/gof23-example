@@ -3,6 +3,9 @@ package com.hyw.gof23.state.dockerstate;
 import com.hyw.gof23.state.DockerContext;
 import com.hyw.gof23.state.DockerState;
 
+/**
+ * 暂停中状态
+ */
 public class PausingState implements DockerState {
     /**
      * 开机

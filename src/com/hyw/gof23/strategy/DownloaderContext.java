@@ -2,6 +2,9 @@ package com.hyw.gof23.strategy;
 
 import com.hyw.gof23.strategy.downloaderstrategy.HttpStrategy;
 
+/**
+ * 文件下载器
+ */
 public class DownloaderContext {
     private DownloaderStrategy downloaderStrategy;
 

@@ -2,6 +2,9 @@ package com.hyw.gof23.strategy.downloaderstrategy;
 
 import com.hyw.gof23.strategy.DownloaderStrategy;
 
+/**
+ * NFS方式
+ */
 public class NfsStrategy implements DownloaderStrategy {
     /**
      * 开始工作
