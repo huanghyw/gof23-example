@@ -13,7 +13,7 @@ public class Main {
     public static void main(String[] args) {
         DockerContext dockerContext = new DockerContext();
 
-        int operatCode = 4;
+        int operatCode = 5;
 
         switch (operatCode){
             case 1:
@@ -34,6 +34,10 @@ public class Main {
                 dockerContext.pause();
                 dockerContext.resume();
                 dockerContext.close();
+                break;
+            case 5:
+                dockerContext.open();
+                dockerContext.open();
                 break;
             default:
                 System.out.println("not support operation!");
