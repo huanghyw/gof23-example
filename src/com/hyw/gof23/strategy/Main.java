@@ -6,8 +6,14 @@ import com.hyw.gof23.strategy.downloaderstrategy.NfsStrategy;
 
 public class Main {
 
+    /**
+     * 三种不同的方式进行下载
+     *
+     * @param args
+     */
     public static void main(String[] args) {
         DownloaderContext downloaderContext = new DownloaderContext();
+
 
         downloaderContext.setDownloaderStrategy(new HttpStrategy());
         downloaderContext.begin();
