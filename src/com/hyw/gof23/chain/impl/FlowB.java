@@ -6,8 +6,14 @@ public class FlowB extends AbstractHandler {
     @Override
     protected void work() {
         System.out.println("流程 FlowB");
-        setNext(new FlowC0());
-//        setNext(new FlowC1());
-//        setNext(new FlowC2());
+        int status = 1;
+
+        if (status == 1){
+            this.setNext(new FlowC0());
+        }else if (status == 2){
+            this.setNext(new FlowC1());
+        }else if (status == 3){
+            this.setNext(new FlowC2());
+        }
     }
 }

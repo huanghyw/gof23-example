@@ -12,14 +12,12 @@ public class Begin extends AbstractHandler {
     protected void work() {
         System.out.println("流程 Begin");
 
-        int status = 1;
+        boolean toEnd = false;
 
-        if (status == 1){
-            this.setNext(new FlowA());
-        }else if (status == 2){
+        if (toEnd){
             this.setNext(new End());
-        }else if (status == 3){
-            // 不设置下一个节点
+        }else{
+            this.setNext(new FlowA());
         }
     }
 }
