@@ -13,7 +13,7 @@ public class DockerContext {
 
     public DockerContext(){
         // 默认为关机状态
-        this.dockerCurrentState = new CloseState();
+        this.dockerCurrentState = CLOSE_STATE;
     }
 
     public void setDockerCurrentState(DockerState dockerCurrentState) {
