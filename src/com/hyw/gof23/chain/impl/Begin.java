@@ -2,8 +2,6 @@ package com.hyw.gof23.chain.impl;
 
 import com.hyw.gof23.chain.AbstractHandler;
 
-import java.util.Random;
-
 public class Begin extends AbstractHandler {
     /**
      * 开始处理节点工作，如果处理完成后需要执行下级节点，则定义下一个节点需要谁来处理
