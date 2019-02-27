@@ -7,4 +7,4 @@
 ![状态模式](https://github.com/huanghyw/gof23-example/blob/master/gitresource/state.png)
 
 ## [责任链模式](https://github.com/huanghyw/gof23-example/tree/master/src/com/hyw/gof23/chain)
-![责任链模式](https://github.com/huanghyw/gof23-example/blob/master/gitresource/chain.png?v=1.0)
+![责任链模式](https://github.com/huanghyw/gof23-example/blob/master/gitresource/chain.png?v=1.1)
